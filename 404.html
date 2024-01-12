@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"><script type="text/javascript" src="https://cdn.thisiswaldo.com/static/js/8406.js"></script><script src="/assets/js/analytics.js"></script><title>Cemu Guide</title><meta name="description" content="A complete guide to installing CEMU and optimizing performance.">
+    <link rel="preload" href="/assets/style-qWdKKepg.css" as="style"><link rel="stylesheet" href="/assets/style-qWdKKepg.css">
+    <link rel="modulepreload" href="/assets/app-WG35xzlA.js"><link rel="modulepreload" href="/assets/404.html-6Yl8cQE3.js"><link rel="modulepreload" href="/assets/404.html-3rdGJgg3.js">
+    <link rel="prefetch" href="/assets/controller-configuration.html-KxXAkmqq.js" as="script"><link rel="prefetch" href="/assets/credits.html-m8uRXO2G.js" as="script"><link rel="prefetch" href="/assets/donations.html-eEsLM0oL.js" as="script"><link rel="prefetch" href="/assets/faq.html-nJPC3vqz.js" as="script"><link rel="prefetch" href="/assets/index.html-F8E5t4WE.js" as="script"><link rel="prefetch" href="/assets/installing-cemu.html-ghq7_9Ec.js" as="script"><link rel="prefetch" href="/assets/installing-games.html-2L__EapH.js" as="script"><link rel="prefetch" href="/assets/multicore-recompiling.html-bxTwoJrm.js" as="script"><link rel="prefetch" href="/assets/online-play.html-V18wLfdP.js" as="script"><link rel="prefetch" href="/assets/optimizing-botw.html-2YIXv-l4.js" as="script"><link rel="prefetch" href="/assets/optimizing-cemu.html-XxN_Kh_o.js" as="script"><link rel="prefetch" href="/assets/site-navigation.html-Twy2SUtj.js" as="script"><link rel="prefetch" href="/assets/troubleshooting.html-sBx5a6qN.js" as="script"><link rel="prefetch" href="/assets/using-async-(old).html-9NW4_bBq.js" as="script"><link rel="prefetch" href="/assets/using-dumpling.html-ZkH890Gb.js" as="script"><link rel="prefetch" href="/assets/ds4windows.html-SZS0pSBj.js" as="script"><link rel="prefetch" href="/assets/index.html-_gKtEltx.js" as="script"><link rel="prefetch" href="/assets/xinput.html-6e0oPyYd.js" as="script"><link rel="prefetch" href="/assets/dumping-updates-and-dlc.html-n25e0Eh3.js" as="script"><link rel="prefetch" href="/assets/transferring-save-data.html-s-jZFUMP.js" as="script"><link rel="prefetch" href="/assets/amd.html-vlrMo8Hs.js" as="script"><link rel="prefetch" href="/assets/index.html-1pXW92uN.js" as="script"><link rel="prefetch" href="/assets/intel.html-c15dR64C.js" as="script"><link rel="prefetch" href="/assets/nvidia.html-QhexX1CA.js" as="script"><link rel="prefetch" href="/assets/digital.html-g6tOtjzU.js" as="script"><link rel="prefetch" href="/assets/index.html-PV9bEDVN.js" as="script"><link rel="prefetch" href="/assets/physical.html-bpO3VhPs.js" as="script"><link rel="prefetch" href="/assets/controller-configuration.html-7EJV0Q79.js" as="script"><link rel="prefetch" href="/assets/credits.html-n9zSQrgJ.js" as="script"><link rel="prefetch" href="/assets/donations.html-DbthL5HH.js" as="script"><link rel="prefetch" href="/assets/faq.html-wurDJpMJ.js" as="script"><link rel="prefetch" href="/assets/index.html-QeMyFvCp.js" as="script"><link rel="prefetch" href="/assets/installing-cemu.html-9ygLTrgH.js" as="script"><link rel="prefetch" href="/assets/installing-games.html-iUWzvtr_.js" as="script"><link rel="prefetch" href="/assets/multicore-recompiling.html-s5E-xpvs.js" as="script"><link rel="prefetch" href="/assets/online-play.html-8LF9Is9m.js" as="script"><link rel="prefetch" href="/assets/optimizing-botw.html-j2FeQmHX.js" as="script"><link rel="prefetch" href="/assets/optimizing-cemu.html-SFgAeNT4.js" as="script"><link rel="prefetch" href="/assets/site-navigation.html-eem_ULkq.js" as="script"><link rel="prefetch" href="/assets/troubleshooting.html-Um8uMoLV.js" as="script"><link rel="prefetch" href="/assets/using-async-(old).html-9EbS4Gk1.js" as="script"><link rel="prefetch" href="/assets/using-dumpling.html-Sl5Lt6hK.js" as="script"><link rel="prefetch" href="/assets/ds4windows.html-NWVEmntf.js" as="script"><link rel="prefetch" href="/assets/index.html-vv-Km-m4.js" as="script"><link rel="prefetch" href="/assets/xinput.html-AGVjpJ1_.js" as="script"><link rel="prefetch" href="/assets/dumping-updates-and-dlc.html-zcLHViiN.js" as="script"><link rel="prefetch" href="/assets/transferring-save-data.html-mqJ0MceE.js" as="script"><link rel="prefetch" href="/assets/amd.html-kasHrFlj.js" as="script"><link rel="prefetch" href="/assets/index.html-npS6Vu2F.js" as="script"><link rel="prefetch" href="/assets/intel.html-jzOG655q.js" as="script"><link rel="prefetch" href="/assets/nvidia.html-a6rQxYA2.js" as="script"><link rel="prefetch" href="/assets/digital.html-FwlqgRPS.js" as="script"><link rel="prefetch" href="/assets/index.html-NMgBFY4H.js" as="script"><link rel="prefetch" href="/assets/physical.html-DWYrCvDq.js" as="script"><link rel="prefetch" href="/assets/Tab-iT_L032P.js" as="script"><link rel="prefetch" href="/assets/Tabs-CwRUU8p0.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-WG35xzlA.js" defer></script>
+  </body>
+</html>
